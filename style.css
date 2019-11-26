@@ -1,0 +1,205 @@
+
+body {
+    margin: 0;
+    font-family: "Abel", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center; 
+}
+
+
+/* Header Section */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 120px;
+    background-color: white;
+    
+}
+
+header img {
+    height: 100px;
+    width: 300px;
+    margin: 5px;
+}
+
+nav {
+    margin: 10px;
+
+}
+
+span {
+    display: inline-block;
+    background-color: #0e2149;
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    color: white;
+    transition: background-color 1s ease-in-out;
+    border-radius: 10px;
+    border: white solid 2px;
+}
+
+nav span:hover {
+    background-color: black;
+}
+span.a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+span.a:link {
+    text-decoration: none;
+}
+
+/* Main Section */
+
+#control {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.main {
+    display: block;
+    align-content: center;
+    
+}
+
+.logo {
+    height: 700px;
+    width: 100%;
+    padding-top: 60px;
+    background: url("../Images/Main-Image.png") center no-repeat;
+    background-size: 100%;
+}
+
+.welcome {
+    text-align: center;
+    height: 10%;
+    padding: 2% 15%;
+    
+}
+b {
+    font-size: 30px;
+}
+
+/* Main Services Section */
+
+.services {
+    display: flex;
+    background-color: #0e2149;
+    width:100%;
+}
+
+i {
+    color: white;
+    margin: 4%;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    min-width: 20%;
+    color: white;
+    border: 2px solid white;
+}
+
+a.link2 {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    font-size: solid 50px;
+    width: 150px;
+    padding: 10px;
+    transition: background-color 1s ease-in-out;
+    border-radius: 10px;
+}
+
+a.link2:hover {
+    background-color: rgb(121, 121, 121);
+}
+a.link2:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.link2:link {
+    text-decoration: none;
+
+}
+
+/* Footer */
+
+
+/* Responsive Screen*/
+
+@media only screen and (max-width: 768px) {
+    
+    header {
+        display: block;
+        height: 20%
+    }
+
+    header img {
+        margin: 0;
+        width: 95%;
+        height: 95%;
+    }
+
+    .main {
+        margin-top: 30%;
+        font-size: 80%;
+    }
+
+
+
+    nav {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }  
+
+
+    .services{
+        display: block;
+    }
+
+    .service {
+        margin: 0;
+        padding: 20px 0px 20px 0px;
+        font-size: 80%;
+    }
+
+
+    h2 {
+        margin: 0;
+    }
+    b {
+        font-size: 100%;
+    }
+
+    i {
+        color: white;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main {
+        margin-top: 40%;
+        font-size: 80%;
+    }
+}
